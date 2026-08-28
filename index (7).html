@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Yojana Setu — Scheme Matching for Marginalized Entrepreneurs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="masthead">
+    <div class="masthead__mark">
+      <svg viewBox="0 0 40 40" class="seal-icon" aria-hidden="true">
+        <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <circle cx="20" cy="20" r="13" fill="none" stroke="currentColor" stroke-width="1"/>
+        <path d="M20 10 L22.5 17 L30 17 L24 21.5 L26.5 29 L20 24.5 L13.5 29 L16 21.5 L10 17 L17.5 17 Z" fill="currentColor"/>
+      </svg>
+    </div>
+    <div class="masthead__text">
+      <p class="eyebrow">Ministry of Social Justice &amp; Empowerment · Scheme Discovery</p>
+      <h1>Yojana Setu</h1>
+      <p class="tagline">A bridge (<em>setu</em>) between entrepreneurs and the government schemes they already qualify for.</p>
+    </div>
+  </header>
+
+  <main class="layout">
+
+    <!-- LEFT: Profile intake, styled as a filled ledger form -->
+    <section class="intake" aria-label="Applicant profile form">
+      <h2 class="section-label"><span class="section-num">01</span> Your Profile</h2>
+
+      <form id="profileForm">
+        <div class="field">
+          <label for="category">Category</label>
+          <select id="category" required>
+            <option value="">Select…</option>
+            <option value="SC">Scheduled Caste (SC)</option>
+            <option value="ST">Scheduled Tribe (ST)</option>
+            <option value="OBC">Other Backward Class (OBC)</option>
+            <option value="Minority">Religious Minority</option>
+            <option value="Woman">Woman Entrepreneur</option>
+            <option value="General">General</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="stage">Business stage</label>
+          <select id="stage" required>
+            <option value="">Select…</option>
+            <option value="idea">Just an idea</option>
+            <option value="starting">Starting up</option>
+            <option value="running">Already running</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="sector">Sector</label>
+          <select id="sector" required>
+            <option value="">Select…</option>
+            <option value="manufacturing">Manufacturing</option>
+            <option value="services">Services</option>
+            <option value="trading">Trading</option>
+            <option value="agri-based">Agri-based</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="state">State / UT</label>
+          <input type="text" id="state" placeholder="e.g. Rajasthan" required />
+        </div>
+
+        <div class="field field--split">
+          <div>
+            <label for="age">Age</label>
+            <input type="number" id="age" min="18" max="100" placeholder="25" required />
+          </div>
+          <div>
+            <label for="investment">Est. investment (₹ lakh)</label>
+            <input type="number" id="investment" min="0" placeholder="5" required />
+          </div>
+        </div>
+
+        <button type="submit" class="btn-primary">Find my schemes</button>
+      </form>
+
+      <p class="disclaimer">Prototype dataset of 10 illustrative central schemes. Not a substitute for official eligibility verification.</p>
+    </section>
+
+    <!-- RIGHT: Results -->
+    <section class="results" aria-label="Matched schemes" aria-live="polite">
+      <h2 class="section-label"><span class="section-num">02</span> Matched Schemes</h2>
+      <div id="resultsList" class="results-list">
+        <p class="empty-state">Fill in your profile to see which schemes you qualify for.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Built for Smart India Hackathon 2026 · SIH26092 · AI-Driven Scheme Matching for Marginalized Entrepreneurs</p>
+  </footer>
+
+<script src="js/matcher.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
