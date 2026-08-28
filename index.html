@@ -34,36 +34,42 @@
       <form id="profileForm">
         <div class="field">
           <label for="category">Category</label>
-          <select id="category" required>
-            <option value="">Select…</option>
-            <option value="SC">Scheduled Caste (SC)</option>
-            <option value="ST">Scheduled Tribe (ST)</option>
-            <option value="OBC">Other Backward Class (OBC)</option>
-            <option value="Minority">Religious Minority</option>
-            <option value="Woman">Woman Entrepreneur</option>
-            <option value="General">General</option>
-          </select>
+          <div class="select-wrap">
+            <select id="category" required>
+              <option value="">Select…</option>
+              <option value="SC">Scheduled Caste (SC)</option>
+              <option value="ST">Scheduled Tribe (ST)</option>
+              <option value="OBC">Other Backward Class (OBC)</option>
+              <option value="Minority">Religious Minority</option>
+              <option value="Woman">Woman Entrepreneur</option>
+              <option value="General">General</option>
+            </select>
+          </div>
         </div>
 
         <div class="field">
           <label for="stage">Business stage</label>
-          <select id="stage" required>
-            <option value="">Select…</option>
-            <option value="idea">Just an idea</option>
-            <option value="starting">Starting up</option>
-            <option value="running">Already running</option>
-          </select>
+          <div class="select-wrap">
+            <select id="stage" required>
+              <option value="">Select…</option>
+              <option value="idea">Just an idea</option>
+              <option value="starting">Starting up</option>
+              <option value="running">Already running</option>
+            </select>
+          </div>
         </div>
 
         <div class="field">
           <label for="sector">Sector</label>
-          <select id="sector" required>
-            <option value="">Select…</option>
-            <option value="manufacturing">Manufacturing</option>
-            <option value="services">Services</option>
-            <option value="trading">Trading</option>
-            <option value="agri-based">Agri-based</option>
-          </select>
+          <div class="select-wrap">
+            <select id="sector" required>
+              <option value="">Select…</option>
+              <option value="manufacturing">Manufacturing</option>
+              <option value="services">Services</option>
+              <option value="trading">Trading</option>
+              <option value="agri-based">Agri-based</option>
+            </select>
+          </div>
         </div>
 
         <div class="field">
@@ -92,7 +98,14 @@
     <section class="results" aria-label="Matched schemes" aria-live="polite">
       <h2 class="section-label"><span class="section-num">02</span> Matched Schemes</h2>
       <div id="resultsList" class="results-list">
-        <p class="empty-state">Fill in your profile to see which schemes you qualify for.</p>
+        <div class="empty-state">
+          <svg viewBox="0 0 48 48" class="empty-state__icon" aria-hidden="true">
+            <circle cx="24" cy="24" r="20" fill="none" stroke="currentColor" stroke-width="1.25"/>
+            <path d="M15 24h18M24 15v18" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" opacity="0.5"/>
+            <circle cx="24" cy="24" r="3" fill="none" stroke="currentColor" stroke-width="1.25"/>
+          </svg>
+          <p>Fill in your profile to see which schemes you qualify for.</p>
+        </div>
       </div>
     </section>
 
