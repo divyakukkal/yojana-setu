@@ -1,0 +1,152 @@
+[
+  {
+    "id": "SC01",
+    "name": "Stand-Up India",
+    "body": "Department of Financial Services, Ministry of Finance",
+    "summary": "Bank loans between ₹10 lakh and ₹1 crore for greenfield enterprises in manufacturing, services, or trading.",
+    "benefit": "Composite loan covering 75% of project cost",
+    "url": "https://www.standupmitra.in",
+    "eligibility": {
+      "categories": ["SC", "ST", "Woman"],
+      "businessStage": ["idea", "starting"],
+      "sectors": ["manufacturing", "services", "trading", "agri-based"],
+      "minAge": 18,
+      "maxInvestmentLakh": 100
+    }
+  },
+  {
+    "id": "SC02",
+    "name": "PM-DAKSH Skill Development Scheme",
+    "body": "Ministry of Social Justice and Empowerment",
+    "summary": "Free short-term and long-term skill training for SC, OBC, EBC, DNT and sanitation workers to improve employability and self-employment readiness.",
+    "benefit": "Free certified training + stipend",
+    "url": "https://pmdaksh.dosje.gov.in",
+    "eligibility": {
+      "categories": ["SC", "OBC", "EBC", "DNT"],
+      "businessStage": ["idea"],
+      "sectors": ["any"],
+      "minAge": 18,
+      "maxInvestmentLakh": null
+    }
+  },
+  {
+    "id": "SC03",
+    "name": "Pradhan Mantri Mudra Yojana (PMMY)",
+    "body": "Ministry of Finance",
+    "summary": "Collateral-free loans up to ₹20 lakh under Shishu, Kishor and Tarun categories for non-farm micro and small enterprises.",
+    "benefit": "Collateral-free loans up to ₹20 lakh",
+    "url": "https://www.mudra.org.in",
+    "eligibility": {
+      "categories": ["SC", "ST", "OBC", "Minority", "Woman", "General"],
+      "businessStage": ["idea", "starting", "running"],
+      "sectors": ["manufacturing", "services", "trading", "agri-based"],
+      "minAge": 18,
+      "maxInvestmentLakh": 20
+    }
+  },
+  {
+    "id": "SC04",
+    "name": "National SC/ST Hub Scheme",
+    "body": "Ministry of MSME",
+    "summary": "Handholding support for SC/ST entrepreneurs including capacity building, credit facilitation, and access to the 4% GeM/CPSE procurement quota.",
+    "benefit": "Procurement quota access + handholding support",
+    "url": "https://scsthub.in",
+    "eligibility": {
+      "categories": ["SC", "ST"],
+      "businessStage": ["starting", "running"],
+      "sectors": ["manufacturing", "services"],
+      "minAge": 18,
+      "maxInvestmentLakh": null
+    }
+  },
+  {
+    "id": "SC05",
+    "name": "Mahila e-Haat",
+    "body": "Ministry of Women and Child Development",
+    "summary": "Online marketing platform for women entrepreneurs and self-help groups to showcase and sell products directly to buyers.",
+    "benefit": "Free online storefront + market linkage",
+    "url": "https://mahilaehaat-rmk.gov.in",
+    "eligibility": {
+      "categories": ["Woman"],
+      "businessStage": ["starting", "running"],
+      "sectors": ["manufacturing", "trading", "agri-based"],
+      "minAge": 18,
+      "maxInvestmentLakh": null
+    }
+  },
+  {
+    "id": "SC06",
+    "name": "Prime Minister's Employment Generation Programme (PMEGP)",
+    "body": "Ministry of MSME (KVIC)",
+    "summary": "Credit-linked subsidy for setting up new micro-enterprises, with higher subsidy rates for SC/ST/OBC/women/differently-abled applicants.",
+    "benefit": "15–35% subsidy on project cost",
+    "url": "https://www.kviconline.gov.in/pmegpeportal",
+    "eligibility": {
+      "categories": ["SC", "ST", "OBC", "Woman", "General"],
+      "businessStage": ["idea", "starting"],
+      "sectors": ["manufacturing", "services"],
+      "minAge": 18,
+      "maxInvestmentLakh": 50
+    }
+  },
+  {
+    "id": "SC07",
+    "name": "Seed Fund Scheme for Minority Entrepreneurs (NMDFC)",
+    "body": "National Minorities Development & Finance Corporation",
+    "summary": "Low-interest micro-financing for minority community entrepreneurs through state channelising agencies.",
+    "benefit": "Loans at 4–8% interest",
+    "url": "https://nmdfc.org",
+    "eligibility": {
+      "categories": ["Minority"],
+      "businessStage": ["idea", "starting", "running"],
+      "sectors": ["manufacturing", "trading", "agri-based", "services"],
+      "minAge": 18,
+      "maxInvestmentLakh": 20
+    }
+  },
+  {
+    "id": "SC08",
+    "name": "Venture Capital Fund for SC/ST (IFCI)",
+    "body": "IFCI Ltd, Ministry of Social Justice & Empowerment",
+    "summary": "Equity/quasi-equity support for scalable, growth-stage SC/ST-owned enterprises with viable business models.",
+    "benefit": "Equity investment up to ₹15 crore",
+    "url": "https://ifciltd.com",
+    "eligibility": {
+      "categories": ["SC", "ST"],
+      "businessStage": ["running"],
+      "sectors": ["manufacturing", "services"],
+      "minAge": 18,
+      "maxInvestmentLakh": 1500
+    }
+  },
+  {
+    "id": "SC09",
+    "name": "Rural Self Employment Training Institutes (RSETI)",
+    "body": "Ministry of Rural Development",
+    "summary": "Free residential skill training and post-training handholding for rural youth to start micro-enterprises or find self-employment.",
+    "benefit": "Free training + bank loan facilitation",
+    "url": "https://rseti.in",
+    "eligibility": {
+      "categories": ["SC", "ST", "OBC", "General", "Woman"],
+      "businessStage": ["idea"],
+      "sectors": ["agri-based", "manufacturing", "services"],
+      "minAge": 18,
+      "maxInvestmentLakh": null
+    }
+  },
+  {
+    "id": "SC10",
+    "name": "TREAD Scheme for Women",
+    "body": "Ministry of MSME",
+    "summary": "Grants for NGOs to provide credit, training and counselling support to non-farm women entrepreneurs.",
+    "benefit": "Up to 30% loan-linked grant support",
+    "url": "https://msme.gov.in",
+    "eligibility": {
+      "categories": ["Woman"],
+      "businessStage": ["idea", "starting"],
+      "sectors": ["manufacturing", "trading", "services"],
+      "minAge": 18,
+      "maxInvestmentLakh": 10
+    }
+  }
+]
